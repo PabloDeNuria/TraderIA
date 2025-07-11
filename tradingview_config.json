@@ -1,0 +1,29 @@
+{
+  "timeframes": {
+    "H4": "240",
+    "H1": "60",
+    "M15": "15"
+  },
+  "pairs": [
+    "EURUSD"
+  ],
+  "delays": {
+    "min_page_load": 4,
+    "max_page_load": 8,
+    "min_action": 1,
+    "max_action": 3,
+    "screenshot_delay": 2
+  },
+  "selectors": {
+    "chart_container": "[data-name='legend-source-item']",
+    "chart_loaded": ".chart-container",
+    "price_scale": ".price-axis"
+  },
+  "anti_detection": {
+    "user_agents": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ]
+  }
+}

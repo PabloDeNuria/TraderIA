@@ -1,0 +1,95 @@
+{
+  "lessons": [
+    {
+      "id": "L001",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Estructura",
+      "context": "H4 lateral sin dirección",
+      "rule": "No operar si H4 no cristalino",
+      "result": "WAIT",
+      "relevance": 5
+    },
+    {
+      "id": "L002",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Timing",
+      "context": "Estructura OK pero en máximos",
+      "rule": "No comprar techos sin zona clara",
+      "result": "WAIT",
+      "relevance": 4
+    },
+    {
+      "id": "L003",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Setup Completo",
+      "context": "H4+H1+M15 alineados",
+      "rule": "Cascada completa = alta probabilidad",
+      "result": "+22 pips",
+      "relevance": 5
+    },
+    {
+      "id": "L007",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Zona Rota",
+      "context": "Zona identificada pero rompió",
+      "rule": "No forzar trades cuando zona falla",
+      "result": "WAIT",
+      "relevance": 5
+    },
+    {
+      "id": "L008",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Sistema",
+      "context": "Evitó pérdida por memoria",
+      "rule": "Memoria funciona para evitar errores",
+      "result": "No Loss",
+      "relevance": 5
+    },
+    {
+      "id": "L009",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Técnico",
+      "context": "Error lectura temporalidad",
+      "rule": "Leer texto exacto, no adivinar",
+      "result": "N/A",
+      "relevance": 5
+    },
+    {
+      "id": "L010",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Técnico",
+      "context": "Precisión en capturas",
+      "rule": "Verificar datos antes de analizar",
+      "result": "N/A",
+      "relevance": 5
+    },
+    {
+      "id": "L011",
+      "date": "2024-12-XX",
+      "pair": "EURUSD",
+      "type": "Setup Completo",
+      "context": "Cascada + zona respetada",
+      "rule": "Order block funciona en retrocesos",
+      "result": "+16 pips",
+      "relevance": 5
+    },
+    {
+      "id": "L012",
+      "date": "2025-07-07",
+      "pair": "EURUSD",
+      "type": "Test",
+      "context": "Testing local memory system",
+      "rule": "Local storage works perfectly",
+      "result": "Success",
+      "relevance": 5
+    }
+  ],
+  "last_lesson_id": 12
+}

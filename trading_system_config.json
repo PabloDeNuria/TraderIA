@@ -1,0 +1,41 @@
+{
+  "trading": {
+    "pairs": [
+      "EURUSD"
+    ],
+    "timeframes": [
+      "H4",
+      "H1",
+      "M15"
+    ],
+    "daily_session_time": "13:00",
+    "monitoring_interval": 15,
+    "trading_hours": {
+      "start": "14:00",
+      "end": "17:00"
+    },
+    "max_retries": 3
+  },
+  "directories": {
+    "screenshots": "trading_screenshots",
+    "logs": "logs",
+    "backups": "backups"
+  },
+  "mt5": {
+    "auto_detect_path": true,
+    "custom_path": null,
+    "command_timeout": 30,
+    "status_check_interval": 5
+  },
+  "automation": {
+    "screenshot_validation": true,
+    "auto_backup": true,
+    "error_recovery": true,
+    "headless_mode": false
+  },
+  "notifications": {
+    "log_level": "INFO",
+    "file_logging": true,
+    "console_logging": true
+  }
+}

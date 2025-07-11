@@ -1,0 +1,10 @@
+id,date,pair,type,context,rule,result,relevance
+L001,2024-12-XX,EURUSD,Estructura,H4 lateral sin dirección,No operar si H4 no cristalino,WAIT,5
+L002,2024-12-XX,EURUSD,Timing,Estructura OK pero en máximos,No comprar techos sin zona clara,WAIT,4
+L003,2024-12-XX,EURUSD,Setup Completo,H4+H1+M15 alineados,Cascada completa = alta probabilidad,+22 pips,5
+L007,2024-12-XX,EURUSD,Zona Rota,Zona identificada pero rompió,No forzar trades cuando zona falla,WAIT,5
+L008,2024-12-XX,EURUSD,Sistema,Evitó pérdida por memoria,Memoria funciona para evitar errores,No Loss,5
+L009,2024-12-XX,EURUSD,Técnico,Error lectura temporalidad,"Leer texto exacto, no adivinar",N/A,5
+L010,2024-12-XX,EURUSD,Técnico,Precisión en capturas,Verificar datos antes de analizar,N/A,5
+L011,2024-12-XX,EURUSD,Setup Completo,Cascada + zona respetada,Order block funciona en retrocesos,+16 pips,5
+L012,2025-07-07,EURUSD,Test,Testing local memory system,Local storage works perfectly,Success,5
